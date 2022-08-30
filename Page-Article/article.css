@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&display=swap%27");
+*
+{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+p
+{
+    text-align: justify;
+}
+.cont
+{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+.nava
+{
+    margin-left: -50px;
+}
+.navli a
+{
+    text-decoration: none;
+    color: black;
+}
+.navliblog a
+{
+    text-decoration: none;
+    color: purple;
+}
+ul li
+{
+    margin-left: 30px;
+    display: inline;
+}
+.tout
+{   
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+    width: 50%;
+}
+.illustration
+{
+    width: 100%;
+}
+article
+{
+    max-width: 1000px;
+}
+h1,h2,h3
+{
+    font-size: x-large;
+    color: #D05270;
+    font-family: 'Abril Fatface', 'sans-serif';
+}
+article
+{
+    margin-top: 20px;
+}
+p
+{
+    margin-top: 20px;
+}
+footer
+{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-top: 50px;
+}
+.footergauche
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+h4
+{
+    font-size: xx-large;
+    color: #D05270;
+}
+.pfooter
+{
+    white-space: pre-line;
+}
+.twitter
+{
+    display: block;
+    border-radius: 10px;
+    width: 150px;
+    line-height: 50px;
+    text-align: center;
+    background: url(Img/BoutonTwitter.png) no-repeat;
+    color: white;
+    width: 150px;
+}
+.linkedin
+{
+    display: block;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 150px;
+    line-height: 50px;
+    text-align: center;
+    background: url(Img/BoutonLinkedin.png) no-repeat;
+    color: white;
+    width: 150px; 
+}
+.medium
+{
+    display: block;
+    border-radius: 10px;
+    width: 150px;
+    line-height: 50px;
+    text-align: center;
+    background: url(Img/BoutonMedium.png) no-repeat;
+    color: white;
+    width: 150px;
+}
+.twitter a
+{
+    color: white;
+    text-decoration: none;
+}
+.linkedin a
+{
+    color: white;
+    text-decoration: none;
+}
+.medium a
+{
+    color: white;
+    text-decoration: none;
+}
+.logoli
+{
+    height: 25px;
+    width: 25px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.ulboutons
+{
+    display: flex;  
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.footerdroit
+{
+    margin-left: 90px;
+}
